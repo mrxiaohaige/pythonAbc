@@ -1,5 +1,5 @@
-# !/usr/bin/python
-# -*- utf-8 -*-
-r=input('输入')
-o=list(range(1,int(r)))
-print(o)
+test=input('请输入一个数字: \n') #输入函数
+# print(test)
+print('sdfsdf')
+
+#input print
