@@ -1,24 +1,3 @@
 # 数据类型
 > 课程目标:掌握常用的数据类型,变量的命名
 > 作业:打印 hello wold 到控制台
-##### 字典的使用回顾
-+ 字典新建
-+ - `dict={}` 也可以给里面赋值
-+ - `dict2=dict.copy()` 字典的浅复制新建
-+ - `dict2=dict` 对dict的引用
-+ 字典取值
-+ - `dict.values()` 取出所有的value
-+ - `dict.keys()`  取出所有的key
-+ - `dict.items()` 取出所有的(key,value)
-+ - `dict[key]` 取出对应的value 如果key不存在则`报错`
-+ - `dict.get(key)` 如果key存在返回对应的value，否则返回`None`
-+ - `dict.getdefault(key,default)` 如果key存在返回对应的value,否则返回`default`
-+ 字典的更新
-+ -`dict[key]=value` 更新字典的单个项目
-+ -`dict.update(dict2)`将另外一个字典更新到旧的字典使用
-+ 字典删除
-+ -删除所有 `dict.clear()`
-+ -删除指定 `dict.pop(key,default)` key存在 删除并返回删除值，不存在则返回default
-+ -删除一组 `dict.popitem()`
-+ key判断
-+ -`key in dict` 而不是`dict.has_key() or dict.has_attr()`
